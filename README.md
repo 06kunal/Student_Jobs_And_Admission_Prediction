@@ -95,6 +95,8 @@ Contributions are welcome! Please follow these steps:
 
 5. Open a pull request detailing your changes.
 
+### Deployed Link: https://student-jobs-and-admission-prediction.onrender.com
+
 ## License
 
 This project is licensed under the MIT License.
