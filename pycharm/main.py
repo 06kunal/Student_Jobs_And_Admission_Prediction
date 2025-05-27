@@ -76,5 +76,8 @@ def predictjob():
 
 
 
+# TO run on local computer use 127.0.0.1 port.
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))  # Get port from environment
+    app.run(debug=True, host="0.0.0.0", port=port)  # Bind to 0.0.0.0. 
